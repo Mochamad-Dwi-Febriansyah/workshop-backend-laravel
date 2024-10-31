@@ -79,7 +79,7 @@ class ProductController extends Controller
 
         return response()->json([
             'status' => 'success',
-            'message' => 'Product Berhasil DiUpdate',
+            'message' => 'Product Berhasil Diupdate',
             'data' => $product
         ], 200);
     }
@@ -101,6 +101,6 @@ class ProductController extends Controller
         return response()->json([
             'status' => 'success',
             'message' => 'Product Berhasil Dihapus'
-        ], 204);
+        ], 200);
     }
 }
